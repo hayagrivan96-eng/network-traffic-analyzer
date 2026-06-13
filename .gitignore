@@ -1,0 +1,21 @@
+# Python virtual env and cache
+backend/venv/
+backend/__pycache__/
+backend/network_guardian.db
+agent/venv/
+agent/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Node dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
